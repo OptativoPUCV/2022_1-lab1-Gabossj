@@ -199,3 +199,31 @@ c:\mingw\include\string.h:79:40: note: declared here
                                         ^~~~~~
 Compilation failed
 9e8fc3b
+Sat Mar 12 18:48:29 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:62:26: error: request for member 'nombre' in something not a structure or union
+    *strcpy(humano->nombre.nombre);
+                          ^
+exercises.c:62:5: error: too few arguments to function 'strcpy'
+    *strcpy(humano->nombre.nombre);
+     ^~~~~~
+In file included from test.c:3:0:
+c:\mingw\include\string.h:79:40: note: declared here
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+In file included from test.c:5:0:
+exercises.c:63:23: error: request for member 'rut' in something not a structure or union
+    *strcpy(humano->rut.rut);
+                       ^
+exercises.c:63:5: error: too few arguments to function 'strcpy'
+    *strcpy(humano->rut.rut);
+     ^~~~~~
+In file included from test.c:3:0:
+c:\mingw\include\string.h:79:40: note: declared here
+ _CRTIMP __cdecl __MINGW_NOTHROW  char *strcpy (char *, const char *);
+                                        ^~~~~~
+Compilation failed
+e17a4ed
