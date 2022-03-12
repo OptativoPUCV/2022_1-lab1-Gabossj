@@ -36,3 +36,9 @@ exercises.c:15:6: error: assignment makes pointer from integer without a cast [-
 cc1.exe: all warnings being treated as errors
 Compilation failed
 335a667
+Sat Mar 12 17:35:35 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  1|6
+total_score: 10/70
+b0f8814
