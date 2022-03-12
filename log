@@ -27,3 +27,12 @@ exercises.c:15:6: error: assignment makes pointer from integer without a cast [-
 cc1.exe: all warnings being treated as errors
 Compilation failed
 50b9694
+Sat Mar 12 17:34:27 HSP 2022: 
+In file included from test.c:5:0:
+exercises.c: In function 'suma':
+exercises.c:15:6: error: assignment makes pointer from integer without a cast [-Werror=int-conversion]
+    c = a + b;
+      ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+335a667
