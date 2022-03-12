@@ -227,3 +227,17 @@ c:\mingw\include\string.h:79:40: note: declared here
                                         ^~~~~~
 Compilation failed
 e17a4ed
+Sat Mar 12 18:58:05 HSP 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:62:4: error: value computed is not used [-Werror=unused-value]
+    *strcpy(humano -> nombre,nombre);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+exercises.c:63:4: error: value computed is not used [-Werror=unused-value]
+    *strcpy(humano -> rut,rut);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~
+cc1.exe: all warnings being treated as errors
+Compilation failed
+3909d11
