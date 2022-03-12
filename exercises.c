@@ -19,14 +19,14 @@ void suma(int a, int b, int * c) {
 Esta función suma los N primeros números del arreglo a
 */
 int sumaN(int a[], int N) {
-    int i;
-    int tot = 0;
+   int i;
+   int tot = 0;
 
-    for(i = 0; i < N; i++) {
+   for(i = 0; i < N; i++) {
       tot += a[i];
-    }
-
-    return tot;
+   }
+   
+   return tot;
 }
 
 /*
@@ -39,10 +39,8 @@ Utilice la función sumaN.
 void sumaNultimos(int a[], int n, int m, int * suma) {
    int largo;
    largo = n-m;
-   a = a + largo;
+   a = a+largo;
    *suma = sumaN(a,m);
-
-
 }
 
 /*
@@ -58,9 +56,10 @@ typedef struct {
   int edad;
 } Persona;
 
-
 Persona* crearPersona(char nombre[], char rut[], int edad) {
-   return NULL;
+   Persona *humano;
+   humano = malloc(sizeof(humano));
+   strcpy(humano->nombre.nombre);
 }
 
 /*
