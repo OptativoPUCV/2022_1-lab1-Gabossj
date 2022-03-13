@@ -302,3 +302,20 @@ exercises.c:89:11: error: return from incompatible pointer type [-Werror=incompa
 cc1.exe: all warnings being treated as errors
 Compilation failed
 74d957a
+Sun Mar 13 14:33:12 HSP 2022: 
+ exercises.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearVector':
+exercises.c:83:50: error: expected expression before ')' token
+    vectorNuevo = (Vector*) malloc(sizeof*(Vector));
+                                                  ^
+exercises.c:84:28: error: 'datos' undeclared (first use in this function)
+    vectorNuevo -> datos = (datos*) malloc(sizeof(datos));
+                            ^~~~~
+exercises.c:84:28: note: each undeclared identifier is reported only once for each function it appears in
+exercises.c:84:34: error: expected expression before ')' token
+    vectorNuevo -> datos = (datos*) malloc(sizeof(datos));
+                                  ^
+Compilation failed
+ed26463
