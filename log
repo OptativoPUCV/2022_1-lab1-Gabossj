@@ -343,3 +343,9 @@ exercises.c:84:19: error: expected identifier before '(' token
                    ^
 Compilation failed
 133082a
+Sun Mar 13 14:44:18 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|2
+total_score: 50/70
+ce94ed2
