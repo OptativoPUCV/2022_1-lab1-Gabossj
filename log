@@ -257,3 +257,9 @@ exercises.c:91:5: error: 'Vector {aka struct <anonymous>}' has no member named '
      ^~
 Compilation failed
 f521dbf
+Sat Mar 12 22:24:07 HSP 2022: 
+ exercises.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+84ae48e
